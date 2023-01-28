@@ -300,7 +300,9 @@ img {
   fill: var(--first-color);
 }
 .home__blob-img {
-  width: 170px;
+  width: 280px;
+
+
 }
 
 .home__data {
@@ -409,7 +411,7 @@ img {
 
 .about__info {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around ;
   margin-bottom: var(--mb-2-5);
 }
 .about__info-title {
@@ -1100,10 +1102,10 @@ img {
     text-align: initial;
   }
   .about__info {
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .about__buttons {
-    justify-content: initial;
+    justify-content: center;
   }
 
   .qualification__tabs {
