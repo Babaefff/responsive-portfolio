@@ -727,13 +727,17 @@ img {
 .portfolio__container {
   overflow: initial;
 }
+.container{
+  max-width: 1000px;
+}
 
 .portfolio__content {
-  padding: 0 1.5rem;
+  padding: 0 0.5rem;
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 500px;
+  height: 300px;
   border-radius: 0.5rem;
   justify-self: center;
 }
@@ -1135,7 +1139,7 @@ img {
   }
 
   .portfolio__img {
-    width: 320px;
+    width: 500px;
   }
   .portfolio__content {
     align-items: center;
